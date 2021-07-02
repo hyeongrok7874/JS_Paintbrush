@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    width: 1300px;
+}
+#canvas{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 1300px;
+    height: 800px;
+    border: 3px solid #000000;
+}
+#color-wrap{
+    display: inline-block;
+    width: 264px;
+}
+.color{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #000000;
+    float: left;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+.purple{
+    background-color: purple;
+}
+.white{
+    background-color: white;
+}
+#tool-wrap{
+    display: inline-block;
+    margin-left: 100px;
+}
+.tool{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000000;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.plus-minus{
+    display: inline-block;
+    margin-left: 100px;
+}
+.plus-minus > button{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    font-size: 200px;
+    line-height: 150px;
+}
