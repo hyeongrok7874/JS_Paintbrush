@@ -8,7 +8,9 @@
     <title>그림판</title>
 </head>
 <body>
-    <canvas onload="draw();" id="canvas" width="1300" height="800"></canvas>
+    <header>
+        <h1><img src="resources/logo.png">Paint Brush</h1>
+    </header>
     <section>
         <ul id="color-wrap">
             <li class="color red"></li>
@@ -21,19 +23,27 @@
             <li class="color white"></li>
         </ul>
         <ul id="tool-wrap">
-            <li class="tool pencil">pencil</li>
-            <li class="tool brush">brush</li>
-            <li class="tool eraser">eraser</li>
+            <li class="tool pencil"><img src="resources/pencil.png">pencil</li>
+            <li class="tool brush"><img src="resources/brush.png">brush</li>
+            <li class="tool eraser"><img src="resources/eraser.png">eraser</li>
         </ul>
-        <div class="plus-minus">j
-            <button class="plus">+</button>
-            <button class="minus">-</button>
+        <div class="plus-minus">
+            <button id="minus">-</button>
+            <p id="size">1</p>
+            <button id="plus">+</button>
         </div>
         <div class="save">
-            <button class="save-button">저장</button>
+            <button class="save-button">SAVE</button>
         </div>
     </section>
 
-    <script src="script/script.js"></script>
+    <canvas onload="draw();" id="canvas" width="1300" height="700"></canvas>
+
+    <script src="script/main.js"></script>
+    <script src="script/size.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 </body>
 </html>
