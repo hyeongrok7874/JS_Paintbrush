@@ -70,15 +70,18 @@ header > h1 > img{
 .white{
     background-color: white;
 }
-#tool-wrap{
+.tool-wrap{
     display: inline-block;
     margin-left: 100px;
 }
-.tool{
+.tool-wrap > li{
+    list-style: none;
+}
+.tool-wrap > li > button{
     width: 200px;
     height: 50px;
     border: 1px solid #000000;
-    list-style: none;
+    background-color: white;
     margin-bottom: 20px;
     font-size: 40px;
     text-align: center;
@@ -102,12 +105,17 @@ header > h1 > img{
 }
 .plus-minus > #minus{
     font-size: 300px;
-    color: red;
     position: relative;
     top: 10px;
 }
 .plus-minus > #plus{
+    position: relative;
+}
+.plus-minus > #plus:hover{
     color: blue;
+}
+.plus-minus > #minus:hover{
+    color: red;
 }
 .plus-minus > p{
     position: relative;
@@ -118,16 +126,20 @@ header > h1 > img{
 }
 .save{
     display: inline-block;
-    
 }
 .save > .save-button{
-    position: fixed;
-    top: 200px;
-    right: 380px;
-    font-size: 80px;
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+    font-size: 70px;
     border-radius: 30px;
 }
 .tool > img{
     width: 40px;
     height: 40px;
+}
+.tool:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
