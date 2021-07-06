@@ -1,5 +1,6 @@
-var canvas = document. getElementById ( "canvas" );
-var context = canvas. getContext ( "2d" );
+
+var canvas = document.getElementById("canvas");
+var context = canvas.getContext ( "2d" );
 //canvas에 mousedown 이벤트 추가 : 이벤트 발생시 mDown 호출
 canvas.addEventListener("mousedown", function (me) {
     mDown(me)
@@ -16,6 +17,9 @@ canvas. addEventListener ( "mouseup" , function (me) {
 canvas. addEventListener ( "mouseout" , function (me) {
     mOut(me)
 }, false);
+
+context.lineWidth = 5;
+
 //처음 마우스 X좌표
 let stX =0;
 //처음 마우스 Y좌표

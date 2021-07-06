@@ -13,14 +13,14 @@
     </header>
     <section>
         <ul id="color-wrap">
-            <li class="color red"></li>
-            <li class="color blue"></li>
-            <li class="color yellow"></li>
-            <li class="color orange"></li>
-            <li class="color green"></li>
-            <li class="color black"></li>
-            <li class="color purple"></li>
-            <li class="color white"></li>
+            <li class="color" id="red"></li>
+            <li class="color" id="blue"></li>
+            <li class="color" id="yellow"></li>
+            <li class="color" id="orange"></li>
+            <li class="color" id="green"></li>
+            <li class="color" id="black"></li>
+            <li class="color" id="purple"></li>
+            <li class="color" id="pink"></li>
         </ul>
         <ul class="tool-wrap">
             <li><button class="tool" id="pencil"><img src="resources/pencil.png">pencil</li>
@@ -29,18 +29,19 @@
         </ul>
         <div class="plus-minus">
             <button id="minus">-</button>
-            <p id="size">1</p>
+            <p id="size">5</p>
             <button id="plus">+</button>
         </div>
         <div class="save">
-            <button class="save-button">SAVE</button>
+            <button class="save-button"><img src="resources/save.png"></button>
         </div>
     </section>
 
-    <canvas onload="draw();" id="canvas" width="1300" height="700"></canvas>
+    <canvas id="canvas" width="1300" height="700"></canvas>
 
     <script src="script/main.js"></script>
     <script src="script/size.js"></script>
+    <script src="script/color.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
