@@ -28,4 +28,5 @@ brush.onclick = function () {
 eraser.onclick = function () {
     size.innerHTML = 10;
     context.lineWidth = 10;
+    context.strokeStyle = 'white';
 }
