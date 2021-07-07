@@ -28,9 +28,9 @@
             <li><button class="tool" id="eraser"><img src="resources/eraser.png">eraser</li>
         </ul>
         <div class="plus-minus">
-            <button id="minus">-</button>
+            <button id="minus" class="minus">-</button>
             <p id="size">5</p>
-            <button id="plus">+</button>
+            <button id="plus" class="plus">+</button>
         </div>
         <div class="save">
             <a class="save-button" id="download" href=""><img src="resources/save.png"></a>
@@ -39,10 +39,26 @@
 
     <canvas id="canvas" width="1300" height="700"></canvas>
 
+    <div id="size">
+        <div class="width">
+            <p>가로</p>
+            <button id="width-minus" class="minus">-</button>
+            <input id="width" type="text">
+            <button id="width-plus" class="plus">+</button> 
+        </div>
+        <div class="height">
+            <p>세로</p>
+            <button id="height-minus" class="minus">-</button>
+            <input id="height" type="text">
+            <button id="height-plus" class="plus">+</button>
+        </div>
+    </div>
+
     <script src="script/main.js"></script>
     <script src="script/size.js"></script>
     <script src="script/color.js"></script>
     <script src="script/download.js"></script>
+    <script src="script/draw-size.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
