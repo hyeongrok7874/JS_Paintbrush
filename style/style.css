@@ -68,6 +68,7 @@ header > h1 > img{
 }
 #black{
     background-color: black;
+    border: 3px solid black;
 }
 #purple{
     background-color: purple;
