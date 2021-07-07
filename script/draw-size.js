@@ -11,8 +11,7 @@ plus.onclick = function () {
     context.lineWidth = parseInt(size.innerHTML);
 }
 minus.onclick = function () {
-    if (size.innerHTML == 0) {
-        context.lineWidth = 0;
+    if (size.innerHTML == 1) {
         return;
     }
     size.innerHTML = parseInt(size.innerHTML) - 1;
