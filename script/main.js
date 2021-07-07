@@ -1,4 +1,3 @@
-
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext ( "2d" );
 //canvas에 mousedown 이벤트 추가 : 이벤트 발생시 mDown 호출

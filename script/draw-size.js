@@ -4,6 +4,7 @@ let minus = document.getElementById("minus");
 let pencil = document.getElementById("pencil");
 let brush = document.getElementById("brush");
 let eraser = document.getElementById("eraser");
+let deleteAll = document.getElementById("delete-all");
 
 plus.onclick = function () {
     console.log("plus")
@@ -29,4 +30,7 @@ eraser.onclick = function () {
     size.innerHTML = 10;
     context.lineWidth = 10;
     context.strokeStyle = 'white';
+}
+deleteAll.onclick = function() {
+    canvas.width = canvas.width;
 }

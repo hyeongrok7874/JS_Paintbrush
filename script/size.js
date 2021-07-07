@@ -27,6 +27,7 @@ heightPlus.onclick = function () {
 function update() {
     width.innerHTML = parseInt(canvas.width);
     height.innerHTML = parseInt(canvas.height);
+    context.lineWidth = parseInt(size.innerHTML);
     canvas.style.marginLeft = "auto";
     canvas.style.marginRight = "auto";
 }
