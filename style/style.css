@@ -38,6 +38,7 @@ header > h1 > img{
 }
 .color:hover{
     cursor: pointer;
+    border: 3px solid #FFFFFF;
 }
 .color{
     display: inline-block;
