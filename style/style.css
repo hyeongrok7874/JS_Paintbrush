@@ -38,7 +38,7 @@ header > h1 > img{
 }
 .color:hover{
     cursor: pointer;
-    border: 3px solid #FFFFFF;
+    border: 3px solid #000000;
 }
 .color{
     display: inline-block;
@@ -46,7 +46,7 @@ header > h1 > img{
     height: 50px;
     margin-right: 10px;
     margin-bottom: 10px;
-    border: 3px solid #000000;
+    border: 3px solid #FFFFFF;
     border-radius: 100px;
     float: left;
 }
