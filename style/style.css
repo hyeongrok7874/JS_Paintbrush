@@ -202,4 +202,6 @@ header > h1 > img{
 }
 #delete-all:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
