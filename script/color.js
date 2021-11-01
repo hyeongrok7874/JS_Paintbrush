@@ -8,7 +8,8 @@ let purple = document.getElementById("purple");
 let pink = document.getElementById("pink");
 let color = document.getElementsByClassName("color");
 
-color[0].onclick = function () {
+red.onclick = function () {
+    console.log("dhd")
     context.strokeStyle = 'red';
 }
 blue.onclick = function () {
@@ -33,15 +34,15 @@ pink.onclick = function () {
     context.strokeStyle = 'pink';
 }
 
-for (let i = 0; i < 8; i++){
-    color[i].onclick = function () {
-        for (let j = 0; j < 8; j++){
-            if (j == i) {
-                color[j].style.border = "3px solid #000000"
-            }
-            else {
-                color[j].style.border = "3px solid #FFFFFF"
-            }
-        }
-    }
-}
+// for (let i = 0; i < 8; i++){
+//     color[i].onclick = function () {
+//         for (let j = 0; j < 8; j++){
+//             if (j == i) {
+//                 color[j].style.border = "3px solid #000000"
+//             }
+//             else {
+//                 color[j].style.border = "3px solid #FFFFFF"
+//             }
+//         }
+//     }
+// }
